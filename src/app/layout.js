@@ -8,7 +8,7 @@ import Footer from '@/app/components/footer';
 import Whatsapp from '@/app/components/whatsapp';
 // import { Providers } from './redux/provider/provider';
 
-import { Lora } from 'next/font/google';
+import { Lora } from 'next/font/google'; 
 
 // Load the Lora font
 const lora = Lora({
