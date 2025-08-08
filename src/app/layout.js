@@ -1,21 +1,30 @@
-"use client";
+'use client';
 
-import "./globals.css";
-import { useState, useEffect } from 'react';
-import MaintenancePage from './maintenance/page';
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
-import Whatsapp from "@/components/whatsapp";
+import './globals.css';
+// import { useState, useEffect } from 'react';
+// import MaintenancePage from './maintenance/page';
+import Navbar from '@/app/components/navbar';
+import Footer from '@/app/components/footer';
+import Whatsapp from '@/app/components/whatsapp';
+// import { Providers } from './redux/provider/provider';
 
-// import { Providers } from "./redux/provider/provider";
+import { Lora } from 'next/font/google';
+
+// Load the Lora font
+const lora = Lora({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+});
 
 export default function RootLayout({ children }) {
-  const [showMaintenance, setShowMaintenance] = useState(false);
+  // const [showMaintenance, setShowMaintenance] = useState(false);
 
-  useEffect(() => {
-    // Decide maintenance flag here
-    setShowMaintenance(true);
-  }, []);
+  // useEffect(() => {
+  //   // Set this to true if you want to show the maintenance page
+  //   setShowMaintenance(false); // Change to true to activate
+  // }, []);
 
   // if (showMaintenance) {
   //   return (
@@ -27,20 +36,16 @@ export default function RootLayout({ children }) {
   //   );
   // }
 
-
   return (
     <html lang="en">
-    <body
-      // className={${geistSans.variable} ${geistMono.variable} antialiased}
-    >
-      {/* <Providers> */}
+      <body className={lora.className}>
+        {/* <Providers> */}
         <Navbar />
         <Whatsapp />
-        {/* <FormPopup /> */}
         {children}
-        {/* <Footer /> */}
+        <Footer />
         {/* </Providers> */}
-    </body>
-  </html>
+      </body>
+    </html>
   );
 }
