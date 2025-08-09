@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
   //     </html>
   //   );
   // }
-
+ 
   return (
     <html lang="en">
       <body className={lora.className}>
