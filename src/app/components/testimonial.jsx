@@ -3,30 +3,30 @@ import Image from 'next/image';
 
 const testimonials = [
   {
-    name: 'Sherri Horton',
-    title: 'Founder',
+    name: 'Priya Verma',
+    // title: 'Founder',
     image:
       'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop&q=60',
     quote:
-      '“I have always been an active member of the community but always felt like I could do so much more.”',
+      '“Krishi Kutir microgreens have completely changed the way I eat! Fresh, crisp, and packed with flavor, they add such a healthy boost to my meals. I love knowing they’re pesticide-free and grown locally. Their delivery is always on time and the quality is unmatched. Highly recommended!”',
     bgColor: 'bg-yellow-100',
   },
   {
-    name: 'Eiliyah Gould',
-    title: 'Managing Director',
+    name: 'Sanjay Rathi',
+    // title: 'Managing Director',
     image:
       'https://images.unsplash.com/photo-1651684215020-f7a5b6610f23?w=600&auto=format&fit=crop&q=60',
     quote:
-      '“I have been using the Organic Grocer for over a year now and I find the staff friendly and helpful with a good.”',
+      '“I started adding Krishi Kutir microgreens to my breakfast and salads, and I feel more energetic throughout the day. The freshness is incredible, and they last long in the fridge. Their customer service is also fantastic—they truly care about what they deliver. A must-try for every health lover!”',
     bgColor: 'bg-green-100',
   },
   {
-    name: 'Kevin Colin',
-    title: 'Farmer',
+    name: 'Kavita Joshi',
+    // title: 'Farmer',
     image:
       'https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?w=600&auto=format&fit=crop&q=60',
     quote:
-      '“My family has been eating organic fruit, veges and meat from The Organic Grocer since they started.”',
+      '“The sunflower and broccoli microgreens from Krishi Kutir are my absolute favorites! They taste amazing and make my dishes look so vibrant. Knowing they are grown organically without chemicals gives me peace of mind. Perfect for anyone wanting to eat clean and live healthy. 💚”',
     bgColor: 'bg-orange-100',
   },
 ];
@@ -40,8 +40,7 @@ export default function Testimonial() {
         Our Client Review
       </h2>
       <p className="text-gray-600 text-sm sm:text-base max-w-xl mx-auto">
-        We value the experimentation, the reformation of the message, and the smart incentives.
-        We offer a variety of services and solutions Worldwide.
+       Discover what our happy customers say! Real stories, real experiences, and real results from enjoying our fresh, premium-quality microgreens every day.
       </p>
 
       {/* Cards */}
@@ -61,7 +60,7 @@ export default function Testimonial() {
             <div className={`${t.bgColor} pt-16 sm:pt-20 pb-6 px-6 rounded-md shadow-md w-full`}>
               <p className="text-sm text-gray-800 italic mb-4 min-h-[90px]">{t.quote}</p>
               <h4 className="font-semibold text-lg text-black">{t.name}</h4>
-              <p className="text-gray-500 text-sm">{t.title}</p>
+              {/* <p className="text-gray-500 text-sm">{t.title}</p> */}
             </div>
           </div>
         ))}

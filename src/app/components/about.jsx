@@ -44,7 +44,7 @@ export default function About() {
             <br className="hidden sm:block" /> accredited farmers
           </h2>
           <p className="text-gray-700 mt-4 font-medium text-base sm:text-lg">
-            Organic Foods and Café is a family-run company founded in 2004 that runs organic supermarkets.
+Krishi Kutir brings you fresh, organic microgreens — harvested live in Bhopal and delivered to homes, restaurants, cafés, and dieticians.
           </p>
           <p className="text-gray-600 text-sm mt-3">
             Organic means growing our food without chemical aids during the growing process—no fertilizers, pesticides, fungicides, herbicides, or larvicides.

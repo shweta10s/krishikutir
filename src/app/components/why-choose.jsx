@@ -13,17 +13,17 @@ export default function WhyChoose() {
     {
       title: '100% Organic Product',
       content:
-        'We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.',
+        'Our microgreens are 100% organic, grown without chemicals or pesticides, ensuring pure, safe, and nutrient-rich greens for your health.',
     },
     {
       title: 'Modern Farm',
       content:
-        'Our modern farm uses sustainable practices and the latest organic farming techniques to grow nutritious produce.',
+        'A modern farm blending sustainable practices with innovation, producing fresh, nutrient-rich microgreens that nourish health and support a greener future.',
     },
     {
       title: 'Always Fresh Product',
       content:
-        'We ensure freshness in every delivery, directly from farm to table without delay.',
+        'Our microgreens are harvested daily, ensuring you receive fresh, flavorful, and nutrient-rich produce straight from our farm to your plate.',
     },
   ];
 
@@ -36,11 +36,10 @@ export default function WhyChoose() {
             ~ Why Choose us ~
           </p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-snug">
-            We believe in working with accredited farmers
+            We Believe in Freshness You Can Taste Every Day
           </h2>
           <p className="text-gray-600 mb-6 text-sm md:text-base">
-            The demand for organic food is growing at a remarkable rate. Consumers have made it want organic produce and every sector of the food.
-            The demand for organic food is growing at a remarkable rate. Consumers have made it.
+           At Krishi Kutir, freshness isn’t just a promise — it’s our passion. Every microgreen is grown with care, harvested at peak nutrition, and delivered the same day. From farm to plate, we ensure you enjoy vibrant flavours, crisp textures, and the pure goodness nature intended.
           </p>
 
           {features.map((feature, index) => (

@@ -11,7 +11,7 @@ export default function OurTeam() {
       name: 'Rachna Alok Sharma',
       title: 'Founder',
       description:
-        'At Krishi Kutir, we specialize in growing fresh, premium-quality microgreens in Bhopal. Founded by Rachna Alok Sharma, our farm is committed to sustainable and organic growing practices that prioritize freshness, health, and flavor.',
+        'For 25 years, Rachna Alok Sharma inspired minds as a dedicated teacher. But outside the classroom, she saw a troubling trend—fast food on every corner, yet real nutrition was missing from daily lives. Determined to find a natural, simple answer to modern health challenges, she discovered microgreens—tiny plants with extraordinary nutritional power. One taste, one study, and she was hooked. These small greens carried vitamins, minerals, and antioxidants far beyond their size. With passion and purpose, Rachna began growing microgreens in a single room at home. What started as an experiment soon bloomed into a mission. Word spread. Families noticed the difference. Chefs, dieticians, and health-conscious customers joined in. Today, Krishi Kutir nourishes 100+ families, restaurants, and wellness experts with fresh, pesticide-free, and locally grown microgreens. From the blackboard to the growing tray, Rachna’s journey proves that change can start small—just like a microgreen—and grow into something truly powerful.',
     },
     {
       image: '/images/Sonal.jpeg',

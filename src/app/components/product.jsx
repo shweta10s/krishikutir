@@ -14,7 +14,7 @@ const Product = () => {
       <header className="w-full flex flex-col justify-center items-center text-center mb-10">
         <p className="text-[#4d7c0f] italic mb-2 text-[20px] sm:text-[24px] font-[400]">~ Our Products ~</p>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-          Meet the founders driving <br /> our mission and shaping the future
+          Superfoods Harvested at Peak Freshness
         </h2>
       </header>
 
@@ -41,21 +41,22 @@ const Product = () => {
               </div>
 
               {/* Size Options */}
-              <div className="flex flex-wrap gap-2 mt-2">
-                {sizes.map((size) => (
-                  <button
-                    key={size}
-                    onClick={() => setSelectedSize(size)}
-                    className={`text-xs px-3 py-1 rounded-full border ${
-                      selectedSize === size
-                        ? 'bg-orange-500 text-white border-orange-500'
-                        : 'border-gray-300 text-gray-600'
-                    }`}
-                  >
-                    {size}
-                  </button>
-                ))}
-              </div>
+             <div className="flex flex-wrap gap-2 mt-2">
+  {sizes.map((size) => (
+    <button
+      key={size}
+      onClick={() => setSelectedSize(size)}
+      className={`text-xs px-3 py-1 rounded-full border bg-transparent
+        ${selectedSize === size
+          ? 'border-green-600 text-green-600'
+          : 'border-gray-300 text-gray-600'
+        }`}
+    >
+      {size}
+    </button>
+  ))}
+</div>
+
 
               {/* Description */}
               <p className="text-sm text-gray-600 mt-2">

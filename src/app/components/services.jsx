@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Services() {
   const services = [
     {
-      title: 'Microgreens Products',
+      title: 'Healthy Microgreens',
       description: 'High-quality, organic microgreens freshly harvested for your health.',
       image: '/background/microgreens.png',
       bgColor: 'bg-yellow-100',
@@ -17,7 +17,7 @@ export default function Services() {
     },
     {
       title: 'Microgreens Training',
-      description: 'Join our training sessions and learn how to grow microgreens professionally.',
+      description: 'Grow microgreens at home, start a profitable business with ease.',
       image: '/background/microgreens.png',
       bgColor: 'bg-orange-100',
     },
@@ -28,10 +28,10 @@ export default function Services() {
       {/* Header */}
       <section className="text-center mb-10">
         <p className="text-[#4d7c0f] italic mb-2 text-[20px] sm:text-[24px] font-[400]">
-          ~ Our Service ~
+          ~ Our Services ~
         </p>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-          All of our products are organic<br />& fresh.
+         All of our products are organic & fresh.
         </h2>
       </section>
 

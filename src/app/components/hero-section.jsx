@@ -25,11 +25,11 @@ const Hero = () => {
             alt="Decorative"
             className="absolute top-0 left-0 h-[150px] opacity-20"
           />
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-bold leading-tight lg:leading-[85px]">
-            Fresh, Nutritious Microgreens Grown Just for You
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-bold leading-tight lg:leading-[85px] mt-8">
+            Tiny leaves, Big Nutrition
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:w-[90%]">
-            Boost your health with our premium, pesticide-free microgreens – harvested fresh and delivered straight to your doorstep. Taste the green revolution today!
+           Experience the power of fresh nutrition with our premium, pesticide-free microgreens. Grown naturally, harvested at peak freshness, and delivered to your doorstep – bringing you the pure taste and health benefits of the green revolution every day.
           </p>
           <Link href="/contact" className="w-fit">
             <button className="bg-white text-[#4d7c0f] border-2 border-white px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-transparent hover:text-white transition duration-300">

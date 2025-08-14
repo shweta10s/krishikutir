@@ -19,12 +19,13 @@ const Navbar = () => {
         
         {/* Logo */}
         <Link href="/">
+
           <img src="/logo/kk-logo.png" alt="Logo" className="h-14 cursor-pointer" />
         </Link>
 
         {/* Hamburger Icon */}
         <div className="md:hidden">
-          <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          <button className='text-[#000]' onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
         </div>

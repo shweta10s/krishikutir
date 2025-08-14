@@ -32,8 +32,7 @@ export default function Blog() {
         ~ From our blog ~
       </p>
       <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
-        On a quest to bring together and closer<br />
-        to you all things Organic.
+        Learn, Grow, and Eat Better with Our Microgreen Blog
       </h2>
 
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
